@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'fonts';
+
+body{
+	color: $site-white;
+	background-color: $site-black;
+	h1{
+		font-family: $title-one;
+	}
+	p{
+		font-family: $paragraphs;
+		font-weight: 400;
+	}
+	iframe{
+		width: 100%;
+	}
+}

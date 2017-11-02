@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Dosis:300,400|Rozha+One|Shrikhand";
+/* line 4, ../sass/main.scss */
+body {
+  color: #fff;
+  background-color: #000;
+}
+/* line 7, ../sass/main.scss */
+body h1 {
+  font-family: "Shrikhand", cursive;
+}
+/* line 10, ../sass/main.scss */
+body p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+}
+/* line 14, ../sass/main.scss */
+body iframe {
+  width: 100%;
+}
