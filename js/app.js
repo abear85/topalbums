@@ -26,4 +26,8 @@ topAlbumsApp.controller('albumsListController', function albumsListController($s
 		}
 		return classes;
 	}
+	$scope.testAB = function(position){
+		testval = $scope.testNames.length - position -1;
+		console.log($scope.testNames[testval].albumTitle);
+	}
 });
